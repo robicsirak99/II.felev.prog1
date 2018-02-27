@@ -1,6 +1,10 @@
-Fordítás: g++ code.cpp -o code g++ decode.cpp -o decode
+Fordítás:
+g++ code.cpp -o code
+g++ decode.cpp -o decode
 
-Használat: ./code {kulcs} < tiszta_szoveg_txt > kodolt_szoveg_txt ./decode < kodolt_szoveg_txt
+Használat: 
+./code {kulcs} < tiszta_szoveg_txt > kodolt_szoveg_txt 
+./decode < kodolt_szoveg_txt
 
 Alapértelmezetten 4 kisbetűből álló kulcsot tör fel a decode program. A kulcs változtatásához:
 -át kell írni a kulcs formáját az 57. sorban -át kell írni a kulcs méretét a 70. sorban
